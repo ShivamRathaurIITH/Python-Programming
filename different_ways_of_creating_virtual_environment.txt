@@ -1,0 +1,14 @@
+## 1st way
+python -m venv myenv // create an environment
+myenv\Scripts\activate // activate the environment
+pip install numpy // install numpy library
+
+## 2nd way
+pip install virtualenv
+virtualenv -p python3 virtual_env // create an environment
+virtual_env\Scripts\activate // activate the environment
+deactivate // // deactivate the environment
+
+## 3rd way
+conda create -p venv python==3.10
+conda activate venv/
